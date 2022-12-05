@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'spartan', sans-serif
+}
+
+h1 {
+	font-size: 50px;
+	list-style: 64px;
+	color: #222;
+}
+
+h2 {
+	font-size: 50px;
+	list-style: 64px;
+	color: #222;
+}
+
+h3 {
+	font-size: 50px;
+	list-style: 64px;
+	color: #222;
+}
+
+h4 {
+	font-size: 50px;
+	list-style: 64px;
+	color: #222;
+}
+
+h6 {
+	font-weight: 700;
+	list-style: 12px;
+	color: #222;
+}
+
+p {
+	font-size: 16px;
+	color: #465b52;
+	margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+	padding: 40px 80px;
+}
+
+.section-m1 {
+	padding: 40px 0px;
+}
+
+.body {
+	width: 100%;
+}
+
+/* header */
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:20px 80px;
+	background-color: #E3E6F3;
+	box-shadow: 0 15px 15px rgb(0, 0, 0, 0.06);
+}
+#navbar{
+	display:flex ;
+	align-items:center;
+	justify-content: center;
+}
+#navbar li{
+	list-style: none;
+	padding:0 20px;
+}
+#navbar li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: black;
+}
